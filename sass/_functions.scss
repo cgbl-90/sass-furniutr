@@ -5,9 +5,11 @@
   align-items: center;
 }
 
-@mixin bg($imgpath) {
+@mixin bg($imgpath, $wd: 278px, $hg: 312px) {
   background-position: center;
   background-repeat: no-repeat;
+  width: $wd;
+  height: $hg;
   background-size: cover;
   background-image: url("../src/" + $imgpath + ".png");
 }

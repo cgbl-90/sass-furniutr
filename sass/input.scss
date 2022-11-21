@@ -54,6 +54,13 @@ li {
   color: white;
   padding: 20px 35px;
   font-size: 22px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  color: $clr;
+  background-color: white;
 }
 
 header {
@@ -72,7 +79,7 @@ header {
 }
 
 section {
-  height: 100vh;
+  height: 850px;
   margin: auto 0;
 }
 
@@ -126,26 +133,18 @@ section {
 }
 
 #art1 {
-  width: 278px;
-  height: 312px;
   @include functions.bg($imgpath: art1);
 }
 
 #art2 {
-  width: 278px;
-  height: 312px;
   @include functions.bg($imgpath: art2);
 }
 
 #art3 {
-  width: 278px;
-  height: 312px;
   @include functions.bg($imgpath: art3);
 }
 
 #art4 {
-  width: 278px;
-  height: 312px;
   @include functions.bg($imgpath: art4);
 }
 
@@ -167,27 +166,19 @@ section {
 }
 
 #value-img {
-  width: 1000px;
-  height: 577px;
-  @include functions.bg($imgpath: value);
+  @include functions.bg($imgpath: value, $wd: 1000px, $hg: 577px);
 }
 
 #hero-img {
-  width: 465px;
-  height: 698px;
-  @include functions.bg($imgpath: hero);
+  @include functions.bg($imgpath: hero, $wd: 400px, $hg: 600px);
 }
 
 #about-img {
-  width: 465px;
-  height: 698px;
-  @include functions.bg($imgpath: about);
+  @include functions.bg($imgpath: about, $wd: 400px, $hg: 600px);
 }
 
 #cta-img {
-  width: 465px;
-  height: 698px;
-  @include functions.bg($imgpath: cta);
+  @include functions.bg($imgpath: cta, $wd: 400px, $hg: 600px);
 }
 
 .black-version {
@@ -203,6 +194,14 @@ section {
     border: 2px solid rgb(118, 117, 117);
     color: rgb(118, 117, 117);
     border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .material-symbols-outlined:focus,
+  .material-symbols-outlined:hover {
+    background-color: $clr;
+    border-color: white;
+    color: white;
   }
 }
 

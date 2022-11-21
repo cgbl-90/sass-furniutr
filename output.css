@@ -55,6 +55,13 @@ li {
   color: white;
   padding: 20px 35px;
   font-size: 22px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #f7515c;
+  background-color: white;
 }
 
 header {
@@ -76,7 +83,7 @@ header .material-symbols-outlined {
 }
 
 section {
-  height: 100vh;
+  height: 850px;
   margin: auto 0;
 }
 
@@ -129,37 +136,37 @@ section {
 }
 
 #art1 {
-  width: 278px;
-  height: 312px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 278px;
+  height: 312px;
   background-size: cover;
   background-image: url("../src/art1.png");
 }
 
 #art2 {
-  width: 278px;
-  height: 312px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 278px;
+  height: 312px;
   background-size: cover;
   background-image: url("../src/art2.png");
 }
 
 #art3 {
-  width: 278px;
-  height: 312px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 278px;
+  height: 312px;
   background-size: cover;
   background-image: url("../src/art3.png");
 }
 
 #art4 {
-  width: 278px;
-  height: 312px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 278px;
+  height: 312px;
   background-size: cover;
   background-image: url("../src/art4.png");
 }
@@ -180,37 +187,37 @@ section {
 }
 
 #value-img {
-  width: 1000px;
-  height: 577px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 1000px;
+  height: 577px;
   background-size: cover;
   background-image: url("../src/value.png");
 }
 
 #hero-img {
-  width: 465px;
-  height: 698px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 400px;
+  height: 600px;
   background-size: cover;
   background-image: url("../src/hero.png");
 }
 
 #about-img {
-  width: 465px;
-  height: 698px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 400px;
+  height: 600px;
   background-size: cover;
   background-image: url("../src/about.png");
 }
 
 #cta-img {
-  width: 465px;
-  height: 698px;
   background-position: center;
   background-repeat: no-repeat;
+  width: 400px;
+  height: 600px;
   background-size: cover;
   background-image: url("../src/cta.png");
 }
@@ -227,6 +234,13 @@ section {
   border: 2px solid rgb(118, 117, 117);
   color: rgb(118, 117, 117);
   border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+.icons .material-symbols-outlined:focus,
+.icons .material-symbols-outlined:hover {
+  background-color: #f7515c;
+  border-color: white;
+  color: white;
 }
 
 footer {
